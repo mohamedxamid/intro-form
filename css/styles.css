@@ -224,7 +224,7 @@ img {
     transition: background-color 0.3s ease;
 }
 
-.form-button:hover {
+.signup-form-submit:hover {
     background-color: #3a2bf8;
 }
 
