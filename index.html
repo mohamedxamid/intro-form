@@ -4,16 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro Component</title>
-
+    <title>Intro Form</title>
+    
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <main class="main-content">
+        <div class="container">
+            <div class="intro-page">
+
+
+                <!-- HERO -->
+                <div class="hero">
+                    <div class="hero-main">
+                        <div class="hero-badge">frontend and backend</div>
+                        <h2 class="hero-heading">Learn to program by<br>watching<br>professionals</h2>
+                        <p class="hero-text">See how experienced developers solve<br>problems in real time</p>
+                    </div>
+                    <div class="hero-bottom">
+                        <strong>Try it free 7 days,</strong> then $20/mo
+                    </div>
+                </div>
+
+
+                <!-- SIGNUP-FORM -->
+                    <form class="signup-form" action="https://echo.htmlacademy.ru" method="POST">
+                        <h2 class="signup-form-heading">Sign up for the course and get free 7 days</h2>
+                        <div class="signup-form-fields">
+                            <input class="signup-form-field" type="text" name="first_name" placeholder="First Name"
+                            aria-label="first name" required>
+                            <input class="signup-form-field" type="text" name="last_name" placeholder="Last Name"
+                            aria-label="last name" required>
+                            <input class="signup-form-field" type="email" name="email" placeholder="Email Address"
+                            aria-label="email address" required>
+                            <input class="signup-form-field" type="password" name="password" placeholder="Password"
+                            aria-label="password" required>
+                        </div>
+                        <button class="signup-form-submit" type="submit">Claim your free trial</button>
+                        <p class="signup-form-notice">By clicking the button, you are agreeing to our
+                            <a  class="signup-form-notice-link" href="#">Terms and Services</a>
+                        </p>
+                    </form>
+
+            </div>
+        </div>
+    </main>
     
-
-
+    
     <script src="js/main.js"></script>
 </body>
 </html>
