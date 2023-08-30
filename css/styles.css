@@ -145,6 +145,8 @@ img {
 }
 
 .hero-heading {
+    width: 100%;
+    max-width: 390px;
     margin-top: 0;
     margin-bottom: 25px;
     font-weight: 700;
@@ -153,6 +155,8 @@ img {
 }
 
 .hero-text {
+    width: 100%;
+    max-width: 347px;
     margin: 0;
     font-size: 16px;
     line-height: 26px;
@@ -242,4 +246,78 @@ img {
 
 .signup-form-notice-link:active {
     opacity: 0.6;
+}
+
+@media only screen and (max-width: 800px) {
+    .intro-page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        height: 600px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .intro-page {
+        flex-direction: column;
+    }
+
+    .hero {
+        height: 488px;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .hero-main {
+        padding: 45px 25px;
+    }
+
+    .hero-heading {
+        width: 100%;
+        max-width: 241px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .hero-text {
+        width: 100%;
+        max-width: 210px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .hero-bottom {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .signup-form {
+        padding: 45px 25px;
+    }
+
+    .signup-form-heading {
+        width: 100%;
+        max-width: 259px;
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 45px;
+    }
+
+    .signup-form-fields {
+        margin-bottom: 70px;
+    }
 }
